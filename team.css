@@ -1,0 +1,147 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+body {
+	font-family: 'Didact Gothic';
+	color: white;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+button {
+	color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid white;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    width: 10%;
+    height: 5%;
+    font-size: .7em;
+    float: inherit;
+    display: inline;
+    margin-right: 2rem;
+}
+
+.button1 {
+    top: 65%;
+    left: 39%;
+}
+
+.button2 {
+    top: 65%;
+    left: 51%;
+}
+
+.buttondiv {
+    float: left;
+}
+
+/*.holder {
+	position: absolute;
+	top: 10px;
+}*/
+
+.inl1 {
+	width: 8%;
+	display: inline;
+	float: right;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	right: 240px;
+    opacity: 0.7;
+}
+
+.inl2 {
+	width: 8%;
+	display: inline;
+	float: right;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	right: 168px;
+    opacity: 0.7;
+}
+
+.inl3 {
+	width: 8%;
+	display: inline;
+	float: right;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	right: 88px;
+    opacity: 0.7;
+}
+
+.inl4 {
+	width: 8%;
+	display: inline;
+	float: right;
+	text-align: center;
+	position: absolute;
+	top: 10px;
+	right: 8px;
+    opacity: 0.7;
+}
+
+.inl1:hover {
+    opacity: 1;
+}
+
+.inl2:hover {
+    opacity: 1;
+}
+
+.inl3:hover {
+    opacity: 1;
+}
+
+.inl4:hover {
+    opacity: 1;
+}
+
+img {
+    padding: 0; 
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    opacity: .5;
+}
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+/* Centered text */
+.centered {
+	width: 100%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em;
+    padding: 0;
+    margin-top: 0;
+}
