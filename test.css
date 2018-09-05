@@ -41,3 +41,31 @@ p {
 	font-size: .8em; 
 	line-height: 1.8em;"
 }
+
+@keyframes bordercol {
+    0%   {border: solid 5px #42f4b0;}
+    50%  {border: solid 20px #41ebf4;}
+    100% {border: solid 5px #42f4b0;}
+}
+
+.profilepicr {
+    animation-name: bordercol;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotateY(0deg);
+    }
+    to { 
+        -webkit-transform: rotateY(360deg);
+    }
+}
+
+.profilepicr:hover {
+  -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 2s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
